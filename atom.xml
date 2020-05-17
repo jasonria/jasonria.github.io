@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>RIA (Run it again)</title>
+  
+  <subtitle>Blogging about technologies</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-05-17T14:30:34.240Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Jason Wan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>x64 calling convention</title>
+    <link href="http://yoursite.com/2020/05/x64-calling-convention/"/>
+    <id>http://yoursite.com/2020/05/x64-calling-convention/</id>
+    <published>2020-05-17T02:30:04.000Z</published>
+    <updated>2020-05-17T14:30:34.240Z</updated>
+    
+    <content type="html"><![CDATA[<p>This post demonstrates how the functions are called in 64-bit application, espcially how function parameters are passed from the calling function to the called function.</p><!-- [![](/images/x64_calling_convention/001.png)](http://localhost:4000/2020/05/x64-calling-convention/) --><a id="more"></a><p>X64 uses a ‘fast call’ calling conversion</p><p>First 4 arguments are passed through registers<br>And possibly on the stack (register home space)<br>            - Caller is responsible for setting up the home space<br>The rest goes onto the stack if the arguments are more than 4, much like x86.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This post demonstrates how the functions are called in 64-bit application, espcially how function parameters are passed from the calling function to the called function.&lt;/p&gt;
+&lt;!-- [![](/images/x64_calling_convention/001.png)](http://localhost:4000/2020/05/x64-calling-convention/) --&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Assembly Language" scheme="http://yoursite.com/tags/Assembly-Language/"/>
+    
+      <category term="Registers" scheme="http://yoursite.com/tags/Registers/"/>
+    
+      <category term="Calling Convention" scheme="http://yoursite.com/tags/Calling-Convention/"/>
+    
+  </entry>
+  
+</feed>
