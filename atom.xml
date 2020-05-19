@@ -5,9 +5,9 @@
   <subtitle>Blogging about technologies</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://jasonria.github.io/"/>
   <updated>2020-05-17T16:09:57.435Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://jasonria.github.io/</id>
   
   <author>
     <name>Jason Wan</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>x64 calling convention</title>
-    <link href="http://yoursite.com/2020/05/x64-calling-convention/"/>
-    <id>http://yoursite.com/2020/05/x64-calling-convention/</id>
+    <link href="https://jasonria.github.io/2020/05/x64-calling-convention/"/>
+    <id>https://jasonria.github.io/2020/05/x64-calling-convention/</id>
     <published>2020-05-17T02:30:04.000Z</published>
     <updated>2020-05-17T16:09:57.435Z</updated>
     
@@ -34,11 +34,11 @@
     
     
     
-      <category term="Assembly Language" scheme="http://yoursite.com/tags/Assembly-Language/"/>
+      <category term="Assembly Language" scheme="https://jasonria.github.io/tags/Assembly-Language/"/>
     
-      <category term="Registers" scheme="http://yoursite.com/tags/Registers/"/>
+      <category term="Registers" scheme="https://jasonria.github.io/tags/Registers/"/>
     
-      <category term="Calling Convention" scheme="http://yoursite.com/tags/Calling-Convention/"/>
+      <category term="Calling Convention" scheme="https://jasonria.github.io/tags/Calling-Convention/"/>
     
   </entry>
   
